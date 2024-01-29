@@ -1,0 +1,15 @@
+body{
+    font-size: 16px;
+}
+@font-face {
+    font-family: 'Sixtyfour';
+    src: url('Sixtyfour-Regular.eot');
+    src: url('Sixtyfour-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Sixtyfour-Regular.woff2') format('woff2'),
+        url('Sixtyfour-Regular.woff') format('woff'),
+        url('Sixtyfour-Regular.ttf') format('truetype'),
+        url('Sixtyfour-Regular.svg#Sixtyfour-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
