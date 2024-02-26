@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         body{
+            height: 10000px;
+         }
+         p{
+            margin-bottom: 20px;
+         }
+
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        [href^="https://ab.onliner.by/"] {
+            color: red;
+        }
+        [src$=".png"]{
+            border: 2px solid red;
+        }
+        [src$=".webp"]{
+            border: 2px solid blue;
+        }
+        [href*="av"]{
+            color: chartreuse;
+        }
+        
+        .A li{
+            color: red;
+        }
+        .B li{
+            font-style: italic;
+        }
+        div > p > span{
+            color: red;
+        }
+        /* h3 + p{
+            background-color: brown;
+        } */
+        h3 ~ p{
+            font-style: italic;
+        }
+        table{
+            
+            border-collapse: collapse;
+        }
+        td{
+            padding: 10px;
+            border: 1px solid;
+        }
+        tr:first-child{
+            background-color: #666;
+        }
+        tr:nth-child(odd){
+            background-color: aqua;
+        }
+
+        tr:last-child{
+            background-color: #666;
+        }
+
+        li:first-child{
+            color: #fff;
+            background-color: red;
+        }
+
+        p:last-child{
+            background-color: aqua;
+        }
+
+        p:first-of-type{
+            background-color: red;
+        }
+
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: green;
+        }
+        a:focus{
+            font-weight: 900;
+        }
+        a:active{
+            font-style: italic;
+        }
+        a:hover{
+            background-color: aqua;
+        }
+        p::first-line{
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Hello</h3>
+    <h2>world</h2>
+    <p>sdsdsds</p>
+    <p>test</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa id ullam exercitationem aliquam expedita asperiores, blanditiis explicabo. Sint exercitationem ea suscipit, distinctio iste omnis. Non itaque voluptate nihil pariatur accusantium.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim itaque, nihil explicabo, nostrum natus distinctio facere nesciunt sequi consectetur maxime totam nobis ratione veritatis dignissimos cumque quidem possimus eius tenetur!</p>
+    <p>Nemo porro doloremque placeat necessitatibus. Ipsam quis quae tempora eum asperiores animi porro libero hic alias eius, voluptates atque molestias. Nesciunt, itaque cum. Id quibusdam nam consequuntur commodi sapiente. Modi!</p>
+    <p>Incidunt eveniet, ea, facilis facere eum ipsam perferendis quasi repudiandae animi temporibus enim similique. Eligendi ea fugiat voluptatum atque mollitia maxime numquam aperiam nulla illo quod! Iure molestiae veniam omnis!</p>
+    <p>Ad nihil, aliquam distinctio nisi odit totam deleniti neque velit, quas minima doloremque adipisci sint! Ex perspiciatis obcaecati necessitatibus in. Excepturi dolore mollitia repudiandae iste sed iusto atque similique fuga.</p>
+    <p>Dolore animi temporibus ratione, voluptatum culpa porro pariatur repellat distinctio? Ipsum, iste perspiciatis labore repellendus eaque, nesciunt quam harum corporis vel sint consectetur quos, eligendi enim maiores nobis aspernatur dicta?</p>
+
+    <a href="https://ab.onliner.by/bmw/5-seriya/g60?body_type%5B0%5D=sedan&engine_type%5B0%5D=diesel&transmission%5B0%5D=automatic" title="onliner">https://www.onliner.by/</a> <br>
+    <a href="https://av1.by/">https://av.by/</a> <br>
+    <a href="http://fe.it-academy.by/Cabinet/" title="it-academy">http://fe.it-academy.by/Cabinet/</a> <br>
+
+
+    <img src="../lesson3/1.png" alt="" width="200"> <br>
+    <img src="../lesson3/1.webp" alt="" width="200"> <br>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae eligendi delectus quas cupiditate veritatis, dignissimos dicta, possimus alias necessitatibus ex quo, velit incidunt ad. Quam nobis aut nam officia perspiciatis.</p>
+
+    <ul class="A">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <ul class="B">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+    </ul>
+
+    <hr>
+
+    <span>
+        span1
+    </span>
+    <div>
+        <span>span2</span>
+        <p>
+            <span>
+                span3
+            </span>
+        </p>
+    </div>
+
+    <hr>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur est magni, reprehenderit, consequuntur a nobis unde recusandae laudantium esse repudiandae in vel doloribus dolor harum beatae voluptatum ab impedit? Maiores.</p>
+    <h3>Hello</h3>
+    <p>world</p>
+    <p>test</p>
+    <h2>elems</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa id ullam exercitationem aliquam expedita asperiores, blanditiis explicabo. Sint exercitationem ea suscipit, distinctio iste omnis. Non itaque voluptate nihil pariatur accusantium.</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim itaque, nihil explicabo, nostrum natus distinctio facere nesciunt sequi consectetur maxime totam nobis ratione veritatis dignissimos cumque quidem possimus eius tenetur!</p>
+    <p>Nemo porro doloremque placeat necessitatibus. Ipsam quis quae tempora eum asperiores animi porro libero hic alias eius, voluptates atque molestias. Nesciunt, itaque cum. Id quibusdam nam consequuntur commodi sapiente. Modi!</p>
+    <p>Incidunt eveniet, ea, facilis facere eum ipsam perferendis quasi repudiandae animi temporibus enim similique. Eligendi ea fugiat voluptatum atque mollitia maxime numquam aperiam nulla illo quod! Iure molestiae veniam omnis!</p>
+    <p>Ad nihil, aliquam distinctio nisi odit totam deleniti neque velit, quas minima doloremque adipisci sint! Ex perspiciatis obcaecati necessitatibus in. Excepturi dolore mollitia repudiandae iste sed iusto atque similique fuga.</p>
+    <p>Dolore animi temporibus ratione, voluptatum culpa porro pariatur repellat distinctio? Ipsum, iste perspiciatis labore repellendus eaque, nesciunt quam harum corporis vel sint consectetur quos, eligendi enim maiores nobis aspernatur dicta?</p>
+
+
+    <table>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td> 
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td> 
+        </tr>
+    </table>
+
+    <hr>
+
+    <p>hello</p>
+    
+</body>
+</html>

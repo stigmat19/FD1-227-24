@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .clearfix:after{
+            clear: both;
+            display: block;
+            content: '';
+        }
+        .wrap{
+            background-color: blue;
+        }
+        .item{
+            width: 200px;
+            height: 300px;
+            margin-left: 10px;
+            margin-right: 10px;
+            background-color: red;
+            float: left;
+        }
+        .item:last-child{
+            margin-right: 0;
+        }
+        .container{
+            width: 1280px;
+            margin: 0 auto;
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="wrap clearfix">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div>
+    </div>
+   
+    
+</body>
+</html>
