@@ -1,0 +1,22 @@
+@media screen and (max-width: 1000px) {
+    .header, .footer{
+        background-color: chocolate;
+    }
+    .menu{
+        float: right;
+    }
+    .banner{
+        float: left;
+    }
+    .menu, .banner{
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 860px) {
+    .menu, .banner{
+        width: auto;
+        float: none;
+    }
+}
+

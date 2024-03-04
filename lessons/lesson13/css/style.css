@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Narnoor&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header, .footer{
+    height: 50px;
+    background-color: aqua;
+}
+.menu{
+    width: 200px;
+    height: 300px;
+    background-color: blue;
+    float: left;
+}
+.banner{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(143, 240, 7);
+    float: right;
+}
+.content{
+    background-color: blueviolet;
+}
+.wrap{
+    background-color: aquamarine;
+}
