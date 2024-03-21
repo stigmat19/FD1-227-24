@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .wrap{
+            position: relative;
+            width: 200px;
+            height: 300px;
+            margin: 50px;
+            
+        }
+        .card{
+            width: 100%;
+            height: 100%;
+            background-image: url('https://www.linearity.io/blog/content/images/size/w1280/format/avif/2023/06/how-to-create-a-car-NewBlogCover.png');
+            background-size: cover;
+            background-position: center;
+            transition: 0.5s;
+            position: absolute;
+        }
+        .card:hover{
+            z-index: 3;
+            background-position: center left;
+            width: 300px;
+            height: 400px;
+        }
+        .card-shadow{
+            opacity: 1;
+            background-color: black;
+            color: #fff;
+            padding: 20px;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .card-shadow:hover + .card{
+            background-position: center right;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="wrap">
+        <div class="card-shadow">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia corrupti ea dolorum quo, veritatis iste maiores quae accusamus voluptatibus. Eaque aperiam consequuntur inventore alias error autem tenetur fuga libero incidunt!
+            
+        </div>
+        <div class="card">
+            
+        </div>
+    </div>
+    
+    
+</body>
+</html>

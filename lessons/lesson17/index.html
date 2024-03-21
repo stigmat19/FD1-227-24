@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 10000px;
+        }
+        input:disabled{
+            background-color: red;
+        }
+        input:enabled{
+            border: 1px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <header role="banner" draggable="true">Hello</header>
+    <hgroup>
+        <h1>разработка сайтов</h1>
+        <h2>обучение Минск</h2> 
+    </hgroup>
+    
+    <!-- <h2>под ключ</h2>   -->
+
+    <figure>
+        <img src="" alt="">
+        <figcaption></figcaption>
+    </figure>
+
+    <label>sdsds
+        <input type="text" value="text" placeholder="enter text">
+    </label>
+
+    <div draggable="true">Lorem <mark>ipsum</mark> dolor sit ame&shy;consectetur adipisicing elit. Vitae praesentium mollitia, obcaecati expedita quaerat unde numquam, sunt aliquid culpa vero earum error excepturi ut dolorum doloremque fugit ab totam aliquam!</div>
+
+    <datalist id=animalslist>
+        <option value="собака">
+        <option value="кошка">
+        <option value="попугай">
+    </datalist>
+    Введите вид животного: <input type=text list=animalslist>
+    <input type="range" step="5" min="10" max="100" onchange="test()">
+    <input type="number" step="5" min="10" max="100">
+    <div id="app"></div>
+
+
+    <select name="aaa[]" id="" multiple>
+        <option value="1"></option>
+        <option value="2"></option>
+        <option value="3"></option>
+    </select>
+
+    <form action="http://fe.it-academy.by/TestForm.php" method="post">
+        <input type="text" name="aaa" required pattern="^(\+375|80)-(29|25|44|33)-(\d{3})-(\d{2})-(\d{2})$">
+        <input type="submit" value="send111">
+    </form>
+
+    <script>
+        const inp = document.querySelector('[type="range"]');
+        const app = document.querySelector('#app');
+        function test(){
+            app.innerHTML = inp.value
+        }
+    </script>
+</body>
+
+</html>
