@@ -1,13 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <title>Document</title>
 
     <style>
-        .wrap{
+        * {
+            box-sizing: border-box;
+        }
+
+        .wrap {
+            /* animation: test 3s 3; */
+            background: url() no-repeat 100px 100px;
             margin: 80px;
             width: 200px;
             height: 200px;
@@ -19,15 +27,61 @@
             background: linear-gradient(to bottom, #99CE15 0%, #A132A4 61%, #C53636 100%);
             transform: scale(0.8) translate(6px, 11px) skew(48deg, -15deg);
         }
+
+        .wrap::selection {
+            background-color: black;
+            color: #99CE15;
+        }
+
+        .test {
+            height: 200px;
+            width: 200px;
+            border: 1px solid red;
+            padding: 30px;
+        }
+
+        @keyframes test {
+            from {
+                transform: rotate(0deg) scale(0.8) translate(6px, 11px) skew(48deg, -15deg);
+            }
+
+            50% {
+                transform: rotate(0deg) scale(0.8) translate(6px, 11px) skew(323deg, 12deg);
+            }
+
+            to {
+                transform: rotate(360deg) scale(0.8) translate(6px, 11px) skew(48deg, -15deg);
+            }
+        }
+
+        .a{
+            width: 0px;
+            height: 0px;
+            border: 50px solid red;
+            border-top-color: blue;
+            border-bottom-color: blue;
+        }
     </style>
 
 </head>
-<body>
-    
 
-    <div class="wrap">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam voluptates nam dolore tenetur quasi, iusto consectetur magnam, doloremque expedita culpa cupiditate tempore quam voluptatibus, consequuntur delectus. Maiores, nostrum officia?
+<body>
+
+    <div class="test"></div>
+
+
+    <div class="wrap animate__animated animate__bounceOutLeft animate__delay-2s">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo ipsam voluptates nam dolore tenetur quasi, iusto
+        consectetur magnam, doloremque expedita culpa cupiditate tempore quam voluptatibus, consequuntur delectus.
+        Maiores, nostrum officia?
     </div>
 
+    <div class="a"></div>
+
+
+    <script>
+        console.log(5 + 10)
+    </script>
 </body>
+
 </html>

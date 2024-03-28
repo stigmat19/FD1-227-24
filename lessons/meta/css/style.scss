@@ -1,0 +1,39 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+
+h1 {
+    font-size: $fontSize * 2;
+
+    &:hover {
+        color: green;
+    }
+
+    span {
+        color: $red;
+
+        @include myMedia(1000px) {
+            color: #0f0;
+        }
+        @include myMedia(600px) {
+            color: #00f;
+        }
+    }
+}
+
+
+.test{
+    @include pacman(#0f0);
+}
+
+.test1{
+    @include pacman();
+}
+
+@for $hhh from 1 through 100
+{
+    .card#{$hhh}
+    {
+        background-image: ('img#{$hhh}.gif' );
+    }
+}
