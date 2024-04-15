@@ -1,15 +1,22 @@
 h1 {
-  font-size: 64px; }
-  h1:hover {
-    color: green; }
+  font-size: 64px;
+}
+h1:hover {
+  color: green;
+}
+h1 span {
+  color: #d10c0c;
+}
+@media all and (max-width: 1000px) {
   h1 span {
-    color: #d10c0c; }
-    @media all and (max-width: 1000px) {
-      h1 span {
-        color: #0f0; } }
-    @media all and (max-width: 600px) {
-      h1 span {
-        color: #00f; } }
+    color: #0f0;
+  }
+}
+@media all and (max-width: 600px) {
+  h1 span {
+    color: #00f;
+  }
+}
 
 .test {
   width: 0px;
@@ -21,7 +28,8 @@ h1 {
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px; }
+  border-bottom-right-radius: 60px;
+}
 
 .test1 {
   width: 0px;
@@ -33,304 +41,407 @@ h1 {
   border-top-left-radius: 60px;
   border-top-right-radius: 60px;
   border-bottom-left-radius: 60px;
-  border-bottom-right-radius: 60px; }
+  border-bottom-right-radius: 60px;
+}
 
 .card1 {
-  background-image: "img1.gif"; }
+  background-image: "img1.gif";
+}
 
 .card2 {
-  background-image: "img2.gif"; }
+  background-image: "img2.gif";
+}
 
 .card3 {
-  background-image: "img3.gif"; }
+  background-image: "img3.gif";
+}
 
 .card4 {
-  background-image: "img4.gif"; }
+  background-image: "img4.gif";
+}
 
 .card5 {
-  background-image: "img5.gif"; }
+  background-image: "img5.gif";
+}
 
 .card6 {
-  background-image: "img6.gif"; }
+  background-image: "img6.gif";
+}
 
 .card7 {
-  background-image: "img7.gif"; }
+  background-image: "img7.gif";
+}
 
 .card8 {
-  background-image: "img8.gif"; }
+  background-image: "img8.gif";
+}
 
 .card9 {
-  background-image: "img9.gif"; }
+  background-image: "img9.gif";
+}
 
 .card10 {
-  background-image: "img10.gif"; }
+  background-image: "img10.gif";
+}
 
 .card11 {
-  background-image: "img11.gif"; }
+  background-image: "img11.gif";
+}
 
 .card12 {
-  background-image: "img12.gif"; }
+  background-image: "img12.gif";
+}
 
 .card13 {
-  background-image: "img13.gif"; }
+  background-image: "img13.gif";
+}
 
 .card14 {
-  background-image: "img14.gif"; }
+  background-image: "img14.gif";
+}
 
 .card15 {
-  background-image: "img15.gif"; }
+  background-image: "img15.gif";
+}
 
 .card16 {
-  background-image: "img16.gif"; }
+  background-image: "img16.gif";
+}
 
 .card17 {
-  background-image: "img17.gif"; }
+  background-image: "img17.gif";
+}
 
 .card18 {
-  background-image: "img18.gif"; }
+  background-image: "img18.gif";
+}
 
 .card19 {
-  background-image: "img19.gif"; }
+  background-image: "img19.gif";
+}
 
 .card20 {
-  background-image: "img20.gif"; }
+  background-image: "img20.gif";
+}
 
 .card21 {
-  background-image: "img21.gif"; }
+  background-image: "img21.gif";
+}
 
 .card22 {
-  background-image: "img22.gif"; }
+  background-image: "img22.gif";
+}
 
 .card23 {
-  background-image: "img23.gif"; }
+  background-image: "img23.gif";
+}
 
 .card24 {
-  background-image: "img24.gif"; }
+  background-image: "img24.gif";
+}
 
 .card25 {
-  background-image: "img25.gif"; }
+  background-image: "img25.gif";
+}
 
 .card26 {
-  background-image: "img26.gif"; }
+  background-image: "img26.gif";
+}
 
 .card27 {
-  background-image: "img27.gif"; }
+  background-image: "img27.gif";
+}
 
 .card28 {
-  background-image: "img28.gif"; }
+  background-image: "img28.gif";
+}
 
 .card29 {
-  background-image: "img29.gif"; }
+  background-image: "img29.gif";
+}
 
 .card30 {
-  background-image: "img30.gif"; }
+  background-image: "img30.gif";
+}
 
 .card31 {
-  background-image: "img31.gif"; }
+  background-image: "img31.gif";
+}
 
 .card32 {
-  background-image: "img32.gif"; }
+  background-image: "img32.gif";
+}
 
 .card33 {
-  background-image: "img33.gif"; }
+  background-image: "img33.gif";
+}
 
 .card34 {
-  background-image: "img34.gif"; }
+  background-image: "img34.gif";
+}
 
 .card35 {
-  background-image: "img35.gif"; }
+  background-image: "img35.gif";
+}
 
 .card36 {
-  background-image: "img36.gif"; }
+  background-image: "img36.gif";
+}
 
 .card37 {
-  background-image: "img37.gif"; }
+  background-image: "img37.gif";
+}
 
 .card38 {
-  background-image: "img38.gif"; }
+  background-image: "img38.gif";
+}
 
 .card39 {
-  background-image: "img39.gif"; }
+  background-image: "img39.gif";
+}
 
 .card40 {
-  background-image: "img40.gif"; }
+  background-image: "img40.gif";
+}
 
 .card41 {
-  background-image: "img41.gif"; }
+  background-image: "img41.gif";
+}
 
 .card42 {
-  background-image: "img42.gif"; }
+  background-image: "img42.gif";
+}
 
 .card43 {
-  background-image: "img43.gif"; }
+  background-image: "img43.gif";
+}
 
 .card44 {
-  background-image: "img44.gif"; }
+  background-image: "img44.gif";
+}
 
 .card45 {
-  background-image: "img45.gif"; }
+  background-image: "img45.gif";
+}
 
 .card46 {
-  background-image: "img46.gif"; }
+  background-image: "img46.gif";
+}
 
 .card47 {
-  background-image: "img47.gif"; }
+  background-image: "img47.gif";
+}
 
 .card48 {
-  background-image: "img48.gif"; }
+  background-image: "img48.gif";
+}
 
 .card49 {
-  background-image: "img49.gif"; }
+  background-image: "img49.gif";
+}
 
 .card50 {
-  background-image: "img50.gif"; }
+  background-image: "img50.gif";
+}
 
 .card51 {
-  background-image: "img51.gif"; }
+  background-image: "img51.gif";
+}
 
 .card52 {
-  background-image: "img52.gif"; }
+  background-image: "img52.gif";
+}
 
 .card53 {
-  background-image: "img53.gif"; }
+  background-image: "img53.gif";
+}
 
 .card54 {
-  background-image: "img54.gif"; }
+  background-image: "img54.gif";
+}
 
 .card55 {
-  background-image: "img55.gif"; }
+  background-image: "img55.gif";
+}
 
 .card56 {
-  background-image: "img56.gif"; }
+  background-image: "img56.gif";
+}
 
 .card57 {
-  background-image: "img57.gif"; }
+  background-image: "img57.gif";
+}
 
 .card58 {
-  background-image: "img58.gif"; }
+  background-image: "img58.gif";
+}
 
 .card59 {
-  background-image: "img59.gif"; }
+  background-image: "img59.gif";
+}
 
 .card60 {
-  background-image: "img60.gif"; }
+  background-image: "img60.gif";
+}
 
 .card61 {
-  background-image: "img61.gif"; }
+  background-image: "img61.gif";
+}
 
 .card62 {
-  background-image: "img62.gif"; }
+  background-image: "img62.gif";
+}
 
 .card63 {
-  background-image: "img63.gif"; }
+  background-image: "img63.gif";
+}
 
 .card64 {
-  background-image: "img64.gif"; }
+  background-image: "img64.gif";
+}
 
 .card65 {
-  background-image: "img65.gif"; }
+  background-image: "img65.gif";
+}
 
 .card66 {
-  background-image: "img66.gif"; }
+  background-image: "img66.gif";
+}
 
 .card67 {
-  background-image: "img67.gif"; }
+  background-image: "img67.gif";
+}
 
 .card68 {
-  background-image: "img68.gif"; }
+  background-image: "img68.gif";
+}
 
 .card69 {
-  background-image: "img69.gif"; }
+  background-image: "img69.gif";
+}
 
 .card70 {
-  background-image: "img70.gif"; }
+  background-image: "img70.gif";
+}
 
 .card71 {
-  background-image: "img71.gif"; }
+  background-image: "img71.gif";
+}
 
 .card72 {
-  background-image: "img72.gif"; }
+  background-image: "img72.gif";
+}
 
 .card73 {
-  background-image: "img73.gif"; }
+  background-image: "img73.gif";
+}
 
 .card74 {
-  background-image: "img74.gif"; }
+  background-image: "img74.gif";
+}
 
 .card75 {
-  background-image: "img75.gif"; }
+  background-image: "img75.gif";
+}
 
 .card76 {
-  background-image: "img76.gif"; }
+  background-image: "img76.gif";
+}
 
 .card77 {
-  background-image: "img77.gif"; }
+  background-image: "img77.gif";
+}
 
 .card78 {
-  background-image: "img78.gif"; }
+  background-image: "img78.gif";
+}
 
 .card79 {
-  background-image: "img79.gif"; }
+  background-image: "img79.gif";
+}
 
 .card80 {
-  background-image: "img80.gif"; }
+  background-image: "img80.gif";
+}
 
 .card81 {
-  background-image: "img81.gif"; }
+  background-image: "img81.gif";
+}
 
 .card82 {
-  background-image: "img82.gif"; }
+  background-image: "img82.gif";
+}
 
 .card83 {
-  background-image: "img83.gif"; }
+  background-image: "img83.gif";
+}
 
 .card84 {
-  background-image: "img84.gif"; }
+  background-image: "img84.gif";
+}
 
 .card85 {
-  background-image: "img85.gif"; }
+  background-image: "img85.gif";
+}
 
 .card86 {
-  background-image: "img86.gif"; }
+  background-image: "img86.gif";
+}
 
 .card87 {
-  background-image: "img87.gif"; }
+  background-image: "img87.gif";
+}
 
 .card88 {
-  background-image: "img88.gif"; }
+  background-image: "img88.gif";
+}
 
 .card89 {
-  background-image: "img89.gif"; }
+  background-image: "img89.gif";
+}
 
 .card90 {
-  background-image: "img90.gif"; }
+  background-image: "img90.gif";
+}
 
 .card91 {
-  background-image: "img91.gif"; }
+  background-image: "img91.gif";
+}
 
 .card92 {
-  background-image: "img92.gif"; }
+  background-image: "img92.gif";
+}
 
 .card93 {
-  background-image: "img93.gif"; }
+  background-image: "img93.gif";
+}
 
 .card94 {
-  background-image: "img94.gif"; }
+  background-image: "img94.gif";
+}
 
 .card95 {
-  background-image: "img95.gif"; }
+  background-image: "img95.gif";
+}
 
 .card96 {
-  background-image: "img96.gif"; }
+  background-image: "img96.gif";
+}
 
 .card97 {
-  background-image: "img97.gif"; }
+  background-image: "img97.gif";
+}
 
 .card98 {
-  background-image: "img98.gif"; }
+  background-image: "img98.gif";
+}
 
 .card99 {
-  background-image: "img99.gif"; }
+  background-image: "img99.gif";
+}
 
 .card100 {
-  background-image: "img100.gif"; }
+  background-image: "img100.gif";
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+
+    <script>
+
+        var car1 = 'bmw';
+        var car2 = 'mers';
+        var car3 = 'audi';
+
+        var other = [1, true, 'hello', NaN, null, undefined];
+
+        var cars = ['bmw', 'mers', 'audi', 'porsche'];
+        // var cars1 = new Array();
+        
+        // for(var i = 0; i < cars.length; i++){
+        //     console.log(cars[i])
+        // }
+
+        var user = ['Ivan', 25, 'M'];
+        var user2 = ['Olga', 30, 'W'];
+        var user3 = ['Petr', 35, 'M'];
+        var user4 = ['W', 'Natasha', 18];
+        
+        var people = {
+            name: 'Ivan',
+            age: 30,
+            gender: 'M',
+            color: 'red'
+        }
+
+        var people2 = {
+            gender: 'W',
+            age: 18,
+            name: 'Natasha'
+        }
+
+        function getUser(_user){
+            var res = 'name: ' + _user.name + ' age: ' + _user['age'] + ' gender: ' + _user.gender;  
+            console.log(res)
+        }
+
+        for(var key in people){
+            console.log('key: ' + key + ' value: ' + people[key] )
+        }
+        
+    </script>
+    
+</body>
+</html>
